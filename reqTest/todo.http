@@ -1,0 +1,18 @@
+
+### -> Get all todo message
+GET http://localhost:3000/todo HTTP/1.1
+
+
+
+### -> Create a new todo
+POST http://localhost:3000/todo HTTP/1.1
+Content-Type: application/json
+
+{
+    "value":"Groceries"
+}
+
+
+
+### -> Get information about a specific todo
+GET http://localhost:3000/todo/5498989 HTTP/1.1
